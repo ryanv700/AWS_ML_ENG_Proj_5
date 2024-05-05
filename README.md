@@ -12,7 +12,26 @@ See the steps below:
    hpo (1).py and the file_list.json.
 2. Run the notebook which will complete the entire end to end project including: Training data download, Split training data into
    training, validation and testing data, Load the data folders to Amazon S3, run a Hyperparameter tuning job to FineTune a ResNet50
-   model on the data, and finally create a deployable model with the best hyperparameters incorporating SageMaker profiling and debugging. 
+   model on the data, and finally create a deployable model with the best hyperparameters incorporating SageMaker profiling and debugging.
+
+The images below serve as a guideline for what you should see in your AWS console as you complete the project:
+
+Training data stored in S3:
+
+<img width="1023" alt="binImages_S3_bucket" src="https://github.com/ryanv700/AWS_ML_ENG_Proj_5/assets/56355045/d74f5035-5176-4d59-ad8b-7708317251fa">
+
+Successful Hyperparameter Tuning Job:
+
+<img width="1111" alt="Successful_Hyperparameter_Tuning_Job" src="https://github.com/ryanv700/AWS_ML_ENG_Proj_5/assets/56355045/4cc5a1c7-e952-4e67-aafa-c18b9be0b236">
+
+Successful model training job:
+
+<img width="1020" alt="Successful_training_job" src="https://github.com/ryanv700/AWS_ML_ENG_Proj_5/assets/56355045/13227129-6732-416c-8486-2aa73943d9db">
+
+Model Artificats Saved in S3:
+
+<img width="1267" alt="model_artifacts_saved_in_S3" src="https://github.com/ryanv700/AWS_ML_ENG_Proj_5/assets/56355045/b5b9a026-7f3a-4e12-9be9-6ee0e3e0103d">
+
 
 ## Dataset
 
@@ -22,7 +41,6 @@ Here is a link to the Amazon Bin Dataset https://registry.opendata.aws/amazon-bi
 
 From the website: 
 “The Amazon Bin Image Dataset contains over 500,000 images and metadata from bins of a pod in an operating Amazon Fulfillment Center. The bin images in this dataset are captured as robot units carry pods as part of normal Amazon Fulfillment Center operations.”
-![image](https://github.com/ryanv700/AWS_ML_ENG_Proj_5/assets/56355045/4b85de40-55f2-43c1-be44-bbb3348d4749)
 
 
 ### Access
