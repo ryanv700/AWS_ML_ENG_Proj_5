@@ -56,6 +56,3 @@ with a larger compute budget this project can be easily scaled up to a much larg
 real world deployment in an Amazon warehouse a more extensive research process using the full 500,000 image dataset which tries several different
 models would be necesary.
 
-## Machine Learning Pipeline
-**TODO:** Explain your project pipeline.
-
